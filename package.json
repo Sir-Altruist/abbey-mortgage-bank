@@ -14,8 +14,6 @@
     "@testing-library/user-event": "^13.2.1",
     "add": "^2.0.6",
     "react": "^18.1.0",
-    "react-chat-widget": "^3.1.4",
-    "react-circular-progressbar": "^2.0.4",
     "react-dom": "^18.1.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
