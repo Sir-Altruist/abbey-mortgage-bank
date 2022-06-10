@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Modal, SpeedDial } from "@mui/material";
-import SpeedDialIcon from "@mui/material/SpeedDialIcon";
 import Chat from "./Chat";
+import ChatBubbleIcon from "@mui/icons-material/ChatBubble";
 
 const ChatMobile = () => {
   const [open, setOpen] = useState(false);
@@ -16,7 +16,7 @@ const ChatMobile = () => {
       <SpeedDial
         ariaLabel="Chat speed dial"
         sx={{ position: "absolute", bottom: 16, right: 16 }}
-        icon={<SpeedDialIcon />}
+        icon={<ChatBubbleIcon />}
         onClose={handleClose}
         onOpen={handleOpen}
         open={open}
