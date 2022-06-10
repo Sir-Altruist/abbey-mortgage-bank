@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.navbar {
+  background-color: #ffffff!important
+}
+.menu {
+  display: flex!important;
+  justify-content: space-between
+}
+.logo {
+  color: #000000;
+  padding-top: .5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.menu-links {
+  text-transform: initial;
+  padding: .5rem 1rem 0 0!important;
+  font-weight: bold;
+  color: #000000!important;
+}
+.nav-icon {
+  margin-left: 2rem;
+  display: flex;
+  justify-content: space-between!important;
+}
+.landing-header {
+  width: 100%;
+  min-height: 10vh;
+  margin-top: 10rem;
+  margin-bottom: 3rem
+}
+.landing-box {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2.5rem;
+}
+.landing-header-box {
+  width: 10rem;
+  height: 2.5rem;
+  border: .5px solid #cccccc;
+  border-radius: 5%;
+}
+.landing-body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #ebf1f7;
+}
+.status {
+  padding-top: 7rem
+}
+.status {
+  width: 100%;
+  position: relative!important;
+}
+.status::after {
+  content: "";
+  width: 5rem;
+  height: .2rem;
+  background-color: #ef6c00;
+  position: absolute;
+  top: 9rem;
+  left: 1.5rem;
+}
+.section-card {
+  margin-top: 5rem;
+}
+.card-btn:hover {
+  background-color:#ffffff!important;
+}
+.status-btn {
+  background-color: #00bfa5!important;
+}
+.card-body {
+  display: flex;
+}
+.left-body {
+  width: 75%;
+  margin-right: 5%;
+}
+.right-body {
+  width: 25%;
+}
+.chat {
+  height: 100%;
+  width: 160%;
+}
